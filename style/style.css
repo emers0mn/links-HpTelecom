@@ -33,7 +33,11 @@ header {
 }
 
 .content{
-    margin: 20px;
+    position: absolute;
+    max-width: 300px;
+
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 .club{
