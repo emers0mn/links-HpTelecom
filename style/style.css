@@ -40,7 +40,7 @@ header {
 
 .content{
     position: absolute;
-    max-width: 300px;
+    max-width: 500px;
 
     left: 50%;
     transform: translatex(-50%);
