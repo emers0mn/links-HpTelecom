@@ -90,6 +90,10 @@ header {
 
 .card-exemplo{
     width: 300px;
+    position: relative;
+
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .bt-green{
