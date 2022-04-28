@@ -24,19 +24,26 @@ a{
 
 ul{
     padding: 0px;
-    
+    max-width: 500px;
 }
 
-li{
+.li-1{
     list-style: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
 }
 
-
+.li-2{
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
 
 .img-lista{
-    width: 70px;
+    width: 55px;
     border-radius: 50%;
     background: linear-gradient(234.62deg, #04CB3A 15.71%, #008930 92.25%);
     margin: 10px;
@@ -69,6 +76,13 @@ nav {
 
 .center{
     text-align: center;
+}
+
+.icon-1{
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .icon-home{
